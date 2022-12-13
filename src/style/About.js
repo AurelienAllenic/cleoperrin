@@ -5,18 +5,25 @@ display: grid;
 grid-template-columns: repeat(2, 1fr);
 width: 100%;
 position: relative;
-top: 30px;
 left: 100px;
+top: 50px;
 `
 export const P = styled.p`
 font-size: 22px;
 width: 50%;
 font-weight: 500;
-line-height: 30px;
+line-height: 35px;
+position: relative;
+left: 15%;
+background-color: #333;
+padding : 15px;
+color: #eee;
+border-radius: 10px 10px 10px 10px;
 `
 export const Img = styled.img`
     height: 500px;
     position: relative;
     top: 100px;
+    right: 200px;
     border-radius: 10px 10px 10px 10px;
 `

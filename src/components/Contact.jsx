@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Form, InputDiv, Input, Textarea, Button } from "../style/Contact"
 import FooterContact from './FooterContact';
+import { MainTitle } from "../style/General"
 
 function Contact() {
     const form = useRef();
@@ -26,6 +27,7 @@ function Contact() {
         <>
             <section id="contact">
                 <Parallax className='img' bgImage={ContactIMG} strength={800}>
+                    <MainTitle>Contact</MainTitle>
                     <ToastContainer />
                     <Form ref={form} onSubmit={sendEmail}>
                         <InputDiv>

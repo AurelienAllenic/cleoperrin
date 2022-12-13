@@ -4,9 +4,11 @@ export const Form = styled.form`
 display: flex;
 justify-content: center;
 align-items: center;
+position: relative;
+bottom: 60px;
 flex-direction: column;
 width: 100%;
-height: 100vh;
+height: 82vh;
 `
 export const InputDiv = styled.div`
 `
