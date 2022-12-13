@@ -6,13 +6,14 @@ justify-content: center;
 align-items: center;
 flex-direction : column;
 position: absolute;
-height: 100vh;
+height: 75vh;
 width: 100%;
 `
 export const DivBlock = styled.div`
 background-color: #333; 
 padding: 15px;
 border-radius: 10px 10px 10px 10px;
+width: 60%;
 `
 export const H1 = styled.h1`
     text-align: center;
@@ -21,6 +22,8 @@ export const H1 = styled.h1`
 `
 export const P = styled.p`
 color: white;
-font-size: 18px;
+font-size: 20px;
 padding: 10px;
+text-align: center;
+line-height: 35px;
 `

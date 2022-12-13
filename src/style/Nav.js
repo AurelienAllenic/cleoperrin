@@ -11,7 +11,7 @@ box-shadow: 1px 1px 1px 1px;
 export const Ul = styled.ul`
 display: flex;
 flex-direction: row;
-gap: 23%;
+gap: 12%;
 margin-left: 2%;
 list-style: none;
 `

@@ -5,7 +5,7 @@ display: grid;
 grid-template-columns: repeat(2, 1fr);
 width: 100%;
 position: relative;
-top: 180px;
+top: 30px;
 left: 100px;
 `
 export const P = styled.p`
