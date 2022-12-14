@@ -76,8 +76,8 @@ font-size: 20px;
 export const Footer = styled.footer`
 background-color: white;
 width: 100%;
-height: 80px;
-position: absolute;
+height: 50px;
+position: fixed;
 bottom: 0%;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -85,7 +85,7 @@ grid-template-columns: repeat(2, 1fr);
 export const PhoneNumber = styled.a`
     font-size: 25px;
     position: absolute;
-    bottom: 30%;
+    bottom: 20%;
     text-decoration: none;
     color: black;
     &:hover{
@@ -96,7 +96,7 @@ export const PhoneNumber = styled.a`
 export const Icons = styled.div`
 gap: 40px;
 position: absolute;
-bottom: 15%;
+bottom: 0%;
 right: 0%;
 `
 export const SpanIcon = styled.a`

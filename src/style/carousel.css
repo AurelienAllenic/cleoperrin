@@ -1,7 +1,9 @@
 .carousel{
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    left: 15.5%;
+    left: 12.5%;
     padding-top: 15px;
     padding-bottom: 15px;
     height: 400px;
@@ -93,4 +95,29 @@
 
 .pagination_dot-active{
     background-color: black;
+}
+@media screen and (max-width: 1600px){
+    .carousel{
+        left: 5%;
+    }
+}
+@media screen and (max-width: 1492px){
+    .carousel{
+        left: 12%;
+    }
+}
+@media screen and (max-width: 1382px){
+    .carousel{
+        left: 0%;
+    }
+}
+@media screen and (max-width: 1088px){
+    .carousel{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 974px){
+    .carousel{
+        height: 200px;
+    }
 }
