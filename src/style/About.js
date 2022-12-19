@@ -1,19 +1,13 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-width: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
 position: relative;
-top: 100px;
-left: 100px;
-gap: 200px;
-@media(max-width: 1349px){
-    gap: 100px;
-}
-@media(max-width: 1224px){
-    gap: 50px;
-}
+width: 80%;
+top: 150px;
+left: 180px;
 @media(max-width: 775px){
     left: 20px;
     width: 90%;
@@ -22,15 +16,10 @@ gap: 200px;
     width: 95%;
 }
 @media(max-width: 653px){
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
     left: 0px;
 }
 @media(max-width: 414px){
     top: 30px;
-}
-@media(max-width: 375px){
-   gap: 0px;
 }
 `
 export const P = styled.p`
@@ -38,10 +27,14 @@ font-size: 22px;
 width: 100%;
 font-weight: 500;
 line-height: 35px;
-background-color: #333;
+background-color: #fff;
+opacity: 0.7;
 padding : 15px;
-color: #eee;
+color: #333;
 border-radius: 10px 10px 10px 10px;
+&:hover{
+    opacity: 1;
+}
 @media(max-width: 1162px){
     font-size: 17px;
 }

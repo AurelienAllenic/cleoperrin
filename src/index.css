@@ -18,6 +18,12 @@ code {
   position: relative;
   height: 100vh;
 }
+.img-portfolio{
+  height: 260vh;
+}
+.img-portfolio-space{
+  height: 120vh;
+}
 a{
   text-decoration: none;
 }

@@ -5,7 +5,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 position: relative;
-bottom: 60px;
+bottom: 0px;
 flex-direction: column;
 width: 100%;
 height: 82vh;
@@ -108,34 +108,21 @@ font-size: 20px;
 export const Footer = styled.footer`
 background-color: white;
 width: 100%;
-height: 50px;
-position: fixed;
-bottom: 0%;
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-`
-export const PhoneNumber = styled.a`
-    font-size: 25px;
-    position: absolute;
-    bottom: 20%;
-    text-decoration: none;
-    color: black;
-    &:hover{
-        font-weight: 500;
-        cursor: pointer;
-    }
-`
-export const Icons = styled.div`
-gap: 40px;
+height: 60px;
 position: absolute;
 bottom: 0%;
-right: 0%;
+`
+export const Icons = styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
 `
 export const SpanIcon = styled.a`
 font-size: 35px;
 margin: 5px;
 color: black;
 &:hover{
-    font-size: 37px;
+    opacity: 0.5;
 }
 `

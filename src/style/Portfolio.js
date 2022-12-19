@@ -1,22 +1,24 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction : column;
-position: absolute;
+position: relative;
 height: 60vh;
 width: 100%;
+top: 25%;
+left: 20%;
 @media(max-width: 1492px){
     height: 100vh;
 }
 `
 export const DivBlock = styled.div`
-background-color: #333; 
 padding: 15px;
 border-radius: 10px 10px 10px 10px;
 width: 60%;
+margin-top: 50px;
+margin-bottom: 35px;
+&:hover{
+    opacity: 1;
+}
 @media(max-width: 1492px){
     width: 70%;
 }
@@ -26,7 +28,7 @@ width: 60%;
 `
 export const H1 = styled.h1`
     text-align: center;
-    color: white;
+    color: black;
     font-size: 30px;
     @media(max-width: 499px){
         font-size: 20px;
@@ -36,7 +38,7 @@ export const H1 = styled.h1`
     }
 `
 export const P = styled.p`
-color: white;
+color: black;
 font-size: 20px;
 padding: 10px;
 text-align: center;

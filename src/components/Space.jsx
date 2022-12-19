@@ -3,26 +3,24 @@ import { Parallax } from 'react-parallax';
 import SpaceIMG from "../assets/space.jpg"
 import { Div, H1, P, DivBlock } from "../style/Portfolio"
 import Caroussel from './Caroussel';
-import { venti } from './Data';
+import { suresnes } from './Data';
 import { MainTitle } from "../style/General"
 
 function Space() {
     return (
         <>
             <section id="space">
-                <Parallax className='img' bgImage={SpaceIMG} strength={800}>
+                <Parallax className='img-portfolio-space' bgImage={SpaceIMG} strength={800}>
                     <MainTitle>Espaces Publics</MainTitle>
                     <Div>
                         <DivBlock>
-                            <H1>VENTI - MOBILIER ROTOMOULABLE</H1>
-                            <P>Venti réinterprète l’ADN formel de
-                                mobiliers de design connus de tous.<br />
-                                Ce projet est finalement un hommage à Eames, Paulin, Noguchi, apportant à leurs objets iconiques, une
-                                nouvelle dimension.<br />L’ensemble de mobilier ouvre une porte vers un nouvel univers formel ; flottant,
-                                imprévisible, libre,
-                                proposant plus qu’un objet figé dans le temps, mais une atmosphère légère et
-                                dispersible au plus grand nombre.</P>
-                            <Caroussel images={venti} />
+                            <H1>La Mairie de Suresnes - guichet unique et
+                                espace d’accueil</H1>
+                            <P>Situé à quelques minutes de la Mairie de Suresnes, le bâtiment administratif  3 rue du Mont Valérien accueille chaque jour citoyens et agents de la mairie. Le projet repose sur trois grands axes : la monumentalité, la mise en valeur de l’identité du bâtiment, et une circulation induite par la structure existante.
+                                L’enjeu d’un espace d’accueil dédié à l’administration en France est de représenter les valeurs patriotiques françaises en constituant un projet
+                                monumental, grandiose, qui appelle le public vers l’intérieur du bâtiment. Un nouvel escalier a donc été dessiné, afin de proposer un flux principal dans la verticalité du bâtiment allant du rez -de -jardin au premier étage. Le projet met également en valeur un savoir-faire unique : le décor peint, moins coûteux et plus écologique que l’usage du vrai marbre.
+                            </P>
+                            <Caroussel images={suresnes} />
                         </DivBlock>
                     </Div>
                 </Parallax>
