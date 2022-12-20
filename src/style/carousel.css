@@ -95,19 +95,11 @@
 .pagination_dot-active{
     background-color: black;
 }
-@media screen and (max-width: 1600px){
-    .carousel{
-        left: 5%;
-    }
-}
-@media screen and (max-width: 1492px){
-    .carousel{
-        left: 12%;
-    }
-}
+
 @media screen and (max-width: 1382px){
     .carousel{
         left: 0%;
+        width: auto;
     }
 }
 @media screen and (max-width: 1088px){
@@ -118,5 +110,10 @@
 @media screen and (max-width: 974px){
     .carousel{
         height: 200px;
+    }
+}
+@media screen and (max-width: 524px){
+    .card_title{
+        font-size: 20px;
     }
 }

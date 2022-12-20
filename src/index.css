@@ -7,6 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/portfolio.jpg");
+  background-image: center/cover;
 }
 
 code {
@@ -24,9 +26,64 @@ code {
 .img-portfolio-space{
   height: 120vh;
 }
+.img-residential{
+  height: 100vh;
+}
 a{
   text-decoration: none;
 }
 ul{
   list-style: none;
+}
+@media screen and (max-width: 810px){
+  .img-portfolio-space{
+    height: 130vh;
+  }
+}
+@media screen and (max-width: 732px){
+  .img-portfolio-space{
+    height: 150vh;
+  }
+}
+
+@media screen and (max-width: 692px){
+  .img-portfolio{
+      height: 280vh;
+  }
+}
+@media screen and (max-width: 616px){
+  .img-portfolio{
+    height: 300vh;
+  }
+}
+@media screen and (max-width: 616px){
+  .img-portfolio-space{
+    height: 160vh;
+  }
+}
+@media screen and (max-width: 565px){
+  .img-portfolio{
+    height: 320vh;
+  }
+}
+@media screen and (max-width: 543px){
+  .img-portfolio-space{
+    height: 180vh;
+  }
+}
+@media screen and (max-width: 512px){
+  .img-portfolio{
+    height: 330vh;
+  }
+}
+@media screen and (max-width: 499px){
+  .img-portfolio{
+    height: 290vh;
+  }
+  .img-portfolio-space{
+      height: 150vh; 
+  }
+  .img-residential{
+    height: 80vh;
+  }
 }

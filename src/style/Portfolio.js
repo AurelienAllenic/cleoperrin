@@ -19,12 +19,6 @@ margin-bottom: 35px;
 &:hover{
     opacity: 1;
 }
-@media(max-width: 1492px){
-    width: 70%;
-}
-@media(max-width: 414px){
-    width: 80%;
-}
 `
 export const H1 = styled.h1`
     text-align: center;

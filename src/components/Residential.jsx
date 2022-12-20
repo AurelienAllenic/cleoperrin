@@ -10,7 +10,7 @@ function Residential() {
     return (
         <>
             <section id="residential">
-                <Parallax className='img' bgImage={ResidentialIMG} strength={800}>
+                <Parallax className='img-residential' bgImage={ResidentialIMG} strength={800}>
                     <MainTitle>Résidentiel</MainTitle>
                     <Div>
                         <DivBlock>
