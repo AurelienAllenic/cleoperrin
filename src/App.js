@@ -9,9 +9,9 @@ import ProgressBar from "./components/ProgressBar";
 function App() {
   return (
     <div className="App">
+      <Nav/>
       <ProgressBar/>
       <Home images={home}/>
-      <Nav/>
       <About/>
       <Design/>
       <Contact/>

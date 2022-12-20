@@ -108,7 +108,7 @@ font-size: 20px;
 export const Footer = styled.footer`
 background-color: white;
 width: 100%;
-height: 60px;
+height: 50px;
 position: absolute;
 bottom: 0%;
 `
