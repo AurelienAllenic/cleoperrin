@@ -14,8 +14,6 @@ function App() {
       <Nav/>
       <About/>
       <Design/>
-      <Space/>
-      <Residential/>
       <Contact/>
     </div>
   );
