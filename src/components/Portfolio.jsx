@@ -1,6 +1,6 @@
 import React from 'react'
 import { Parallax } from 'react-parallax';
-import PortfolioIMG from "../assets/portfolio.jpg"
+import PortfolioIMG from "../assets/test.jpg"
 import { Div, H1, P, DivBlock } from "../style/Portfolio"
 import Caroussel from './Caroussel';
 import { scalables, venti, prisma, suresnes, general } from './Data';

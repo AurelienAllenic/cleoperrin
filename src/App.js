@@ -1,9 +1,7 @@
 import Nav from "./components/nav/Nav";
 import About from "./components/About";
-import Design from "./components/Design";
+import Design from "./components/Portfolio";
 import Contact from "./components/Contact";
-import Space from "./components/Space"
-import Residential from "./components/Residential";
 import { home } from "./components/Data";
 import Home from "./components/Home";
 
