@@ -39,7 +39,6 @@
     font-weight: 500;
     cursor: pointer;
 }
-
 @media screen and (max-width: 1365px){
     .navbar_links{
         flex-direction: column;
