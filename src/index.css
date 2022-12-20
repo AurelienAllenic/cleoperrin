@@ -35,6 +35,11 @@ a{
 ul{
   list-style: none;
 }
+@media screen and (max-width: 1700px){
+  .img-portfolio{
+    height: 280vh;
+  }
+}
 @media screen and (max-width: 810px){
   .img-portfolio-space{
     height: 130vh;
