@@ -6,8 +6,8 @@ align-items: center;
 justify-content: center;
 position: relative;
 width: 80%;
-top: 150px;
-left: 180px;
+top: 320px;
+left: 220px;
 @media(max-width: 775px){
     left: 20px;
     width: 90%;

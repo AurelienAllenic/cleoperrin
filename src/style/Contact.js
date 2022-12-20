@@ -8,7 +8,7 @@ position: relative;
 bottom: 0px;
 flex-direction: column;
 width: 100%;
-height: 82vh;
+height: 100vh;
 @media (max-width: 1492px){
     height: 100vh;
     bottom: 0px;

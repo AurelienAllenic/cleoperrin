@@ -4,15 +4,13 @@ import PortfolioIMG from "../assets/test.jpg"
 import { Div, H1, P, DivBlock } from "../style/Portfolio"
 import Caroussel from './Caroussel';
 import { scalables, venti, prisma, suresnes, general } from './Data';
-import { MainTitle, MainTitlePortfolio, SpanLocation } from "../style/General"
+import { SpanLocation } from "../style/General"
 
 function Design() {
     return (
         <>
             <SpanLocation id='design'></SpanLocation>
             <Parallax className='img-portfolio' bgImage={PortfolioIMG} strength={2100}>
-
-                <MainTitle>Design</MainTitle>
                 <Div>
                     <DivBlock>
                         <H1>VENTI - MOBILIER ROTOMOULABLE</H1>
@@ -46,10 +44,6 @@ function Design() {
                         <SpanLocation id='space'></SpanLocation>
                     </DivBlock>
 
-
-
-                    <MainTitlePortfolio>Espaces Publics</MainTitlePortfolio>
-
                     <DivBlock>
                         <H1>La Mairie de Suresnes - guichet unique et
                             espace d’accueil</H1>
@@ -60,8 +54,6 @@ function Design() {
                         <Caroussel images={suresnes} />
                         <SpanLocation id='residential'></SpanLocation>
                     </DivBlock>
-
-                    <MainTitlePortfolio>Résidentiel</MainTitlePortfolio>
                     <DivBlock>
                         <H1>PROJET 1</H1>
                         <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam expedita earum, corporis autem tempore consequatur, omnis distinctio ex vero, nobis error! Similique iste beatae quis rem mollitia quas id sed!</P>
