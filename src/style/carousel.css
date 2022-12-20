@@ -48,7 +48,7 @@
     align-items: flex-end;
 }
 .card_title{
-    color: white;
+    color: #333;
     font-size: 30px;
 }
 .carousel_arrow_left, .carousel_arrow_right{

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Parallax } from 'react-parallax';
-import PortfolioIMG from "../assets/portfolio.jpeg"
+import PortfolioIMG from "../assets/portfolio.jpg"
 import { Div, H1, P, DivBlock } from "../style/Portfolio"
 import Caroussel from './Caroussel';
 import { scalables, venti, prisma } from './Data';
@@ -10,7 +10,7 @@ function Design() {
     return (
         <>
             <section id="design">
-                <Parallax className='img-portfolio' bgImage={PortfolioIMG} strength={800}>
+                <Parallax className='img-portfolio' bgImage={PortfolioIMG} strength={1200}>
                     <MainTitle>Design</MainTitle>
                     <Div>
                         <DivBlock>

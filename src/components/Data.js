@@ -83,15 +83,23 @@ export const suresnes = [
 ]
 export const home = [
     {
-        image: "/images/contact.jpg",
+        image: "/images/home1.jpg",
         title: "Cléo Perrin",
     },
     {
-        image: "/images/about.jpg",
+        image: "/images/home2.jpg",
         title: "Architecte émérite",
     },
     {
-        image: "/images/residential.jpg",
-        title: "Fesses...",
+        image: "/images/home3.jpg",
+        title: "Design...",
+    },
+    {
+        image: "/images/home4.jpg",
+        title: "Architecture...",
+    },
+    {
+        image: "/images/home5.jpg",
+        title: "Conceeeeeptttt...",
     },
 ]
