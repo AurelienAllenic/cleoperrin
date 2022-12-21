@@ -10,7 +10,7 @@ function Design() {
     return (
         <>
             <SpanLocation id='design'></SpanLocation>
-            <Parallax className='img-portfolio' bgImage={PortfolioIMG} strength={2100}>
+            <Parallax className='img-portfolio' bgImage={PortfolioIMG} strength={2500}>
                 <Div>
                     <DivBlock>
                         <H1>VENTI - MOBILIER ROTOMOULABLE</H1>
