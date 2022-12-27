@@ -38,16 +38,16 @@ padding: 10px;
 text-align: center;
 line-height: 35px;
 @media(max-width: 499px){
-    font-size: 17px;
+    font-size: 14px;
 }
 @media(max-width: 414px){
     line-height: 25px;
 }
 @media(max-width: 403px){
-    font-size: 15px;
+    font-size: 13px;
     line-height: 25px;
 }   
 @media(max-width: 254px){
-    font-size: 13px;
+    font-size: 11px;
 }
 `

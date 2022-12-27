@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const DivBar = styled.div`
 height: 20vh;
-
 z-index: 2000;
 `
 
@@ -12,6 +11,9 @@ position: sticky;
 top: 8%;
 z-index: 2000;
 height: 5px;
+@media(max-width: 1375px){
+    top: 0%;
+}
 `
 export const Bar = styled.div`
 height: 5px;

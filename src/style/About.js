@@ -8,15 +8,9 @@ position: relative;
 width: 80%;
 top: 320px;
 left: 220px;
-@media(max-width: 775px){
-    left: 20px;
-    width: 90%;
-}
-@media(max-width: 689px){
-    width: 95%;
-}
-@media(max-width: 653px){
+@media(max-width: 1375px){
     left: 0px;
+    width: 100%;
 }
 @media(max-width: 414px){
     top: 30px;

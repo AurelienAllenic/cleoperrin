@@ -53,7 +53,6 @@ function Navbar() {
                 <button className='navbar_burger' onClick={handleShowLinks}>
                     <span className='burger-bar'></span>
                 </button>
-
             </div>
         </>
     )
