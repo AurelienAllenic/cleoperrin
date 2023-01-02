@@ -18,6 +18,11 @@ code {
   position: relative;
   height: 100vh;
 }
+.img-about{
+  background: no-repeat center/cover;
+  position: relative;
+  height: 100vh;
+}
 a{
   text-decoration: none;
 }
@@ -28,15 +33,18 @@ ul{
   .img-portfolio{
   height: 500vh;
 }
+@media screen and (max-width: 1785px){
+  .img-about{
+    height: 190vh;
+  }
+}
 }
 @media screen and (max-width: 1629px){
   .img-portfolio{
   height: 570vh;
 }
-@media screen and (max-width: 1392px){
-  .img-portfolio{
-  height: 580vh;
-}
+.img-about{
+  height: 210vh;
 }
 }
 @media screen and (max-width: 1335px){
@@ -177,6 +185,9 @@ ul{
 @media screen and (max-width: 291px){
   .img-portfolio{
   height: 670vh;
+}
+.img-about{
+  height: 200vh;
 }
 }
 @media screen and (max-width: 266px){

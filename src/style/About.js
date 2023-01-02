@@ -10,8 +10,14 @@ width: 100%;
     left: 0px;
     width: 100%;
 }
+@media(max-width: 859px){
+    width: 94%;
+}
 @media(max-width: 414px){
     top: 30px;
+}
+@media(max-width: 285px){
+    width: 90%;
 }
 `
 export const BorderWhite = styled.div`
@@ -53,11 +59,25 @@ export const DateAbout = styled.p`
 opacity: 0.7;
 text-align: center;
 `
-export const Ul = styled.ul`
-display: grid;
-grid-template-columns: repeat(1, 3fr);
+export const CardsContainer = styled.div`
+@media(max-width: 1785px){ 
+margin-top: 1000px;
+}
 `
-export const Li = styled.li``
+export const Ul = styled.ul`
+display: inline-block;
+@media(max-width: 1785px){ 
+    display: inherit;
+    
+}
+`
+export const Li = styled.li`
+display: grid;
+
+@media(max-width: 731px){ 
+    width :100%;
+}
+`
 export const DateAndIndication = styled.div`
 display: flex;
 padding: 15px;
