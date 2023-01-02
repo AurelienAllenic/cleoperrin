@@ -27,9 +27,6 @@ export const H1 = styled.h1`
     @media(max-width: 499px){
         font-size: 20px;
     }
-    @media(max-width: 403px){
-        font-size: 17px;
-    }
 `
 export const P = styled.p`
 color: black;
@@ -38,16 +35,16 @@ padding: 10px;
 text-align: center;
 line-height: 35px;
 @media(max-width: 499px){
-    font-size: 14px;
+    font-size: 20px;
 }
 @media(max-width: 414px){
     line-height: 25px;
 }
 @media(max-width: 403px){
-    font-size: 13px;
+    font-size: 20px;
     line-height: 25px;
 }   
 @media(max-width: 254px){
-    font-size: 11px;
+    font-size: 18px;
 }
 `

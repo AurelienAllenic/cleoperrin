@@ -1,22 +1,22 @@
 export const scalables = [
     {
-        image: "/images/design1.jpg",
+        image: "/images/design1.webp",
         title: "Scalables",
     },
     {
-        image: "/images/design3.jpg",
+        image: "/images/design3.webp",
         title: "Scalables",
     },
     {
-        image: "/images/design4.jpg",
+        image: "/images/design4.webp",
         title: "Scalables",
     },
     {
-        image: "/images/design5.jpg",
+        image: "/images/design5.webp",
         title: "Scalables",
     },
     {
-        image: "/images/design6.jpg",
+        image: "/images/design6.webp",
         title: "Scalables",
     },
 ]
@@ -77,11 +77,11 @@ export const home = [
         title: "",
     },
     {
-        image: "/images/home4.jpg",
+        image: "/images/home4.webp",
         title: "",
     },
     {
-        image: "/images/home5.jpg",
+        image: "/images/home5.webp",
         title: "",
     },
 ]

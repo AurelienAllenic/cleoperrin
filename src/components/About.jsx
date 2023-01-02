@@ -1,25 +1,27 @@
 import React from 'react'
 import { Parallax } from 'react-parallax';
 import AboutIMG from "../assets/about.jpg"
-import { CardsContainer, BorderWhite, Div, Ul, Li, TitleAbout, DateAbout, PlaceAbout, CursusAbout, DateAndIndication, Date, Indication, SecondIndication } from "../style/About"
+import { CardsContainer, BorderWhite, Div, Ul, Li, TitleAbout, DateAbout, PlaceAbout, CursusAbout, DateAndIndication, Date, Indication, DivFormation } from "../style/About"
 
 function About() {
+
     return (
         <>
             <section id="about">
 
-                <Parallax className='img-about' bgImage={AboutIMG} strength={800}>
+                <Parallax className='img-about' bgImage={AboutIMG} strength={500}>
                     <Div>
                         <CardsContainer>
                             <Ul>
                                 <Li><BorderWhite>
-                                    <TitleAbout>Formations</TitleAbout>
-                                    <DateAbout>2019-2018</DateAbout>
-                                    <PlaceAbout>Ecole Camondo, Paris</PlaceAbout>
-                                    <CursusAbout>Double cursus Architecte intérieur et Design</CursusAbout>
-                                    <DateAbout>2016-2019</DateAbout>
-                                    <PlaceAbout>Lycée maximilien Vox, Paris</PlaceAbout>
-                                    <CursusAbout>Baccalauréat STD2A avec mention</CursusAbout></BorderWhite>
+                                    <DivFormation>
+                                        <TitleAbout>Formations</TitleAbout>
+                                        <DateAbout>2019-2018</DateAbout>
+                                        <PlaceAbout>Ecole Camondo, Paris</PlaceAbout>
+                                        <CursusAbout>Double cursus Architecte intérieur et Design</CursusAbout>
+                                        <DateAbout>2016-2019</DateAbout>
+                                        <PlaceAbout>Lycée maximilien Vox, Paris</PlaceAbout>
+                                        <CursusAbout>Baccalauréat STD2A avec mention</CursusAbout></DivFormation></BorderWhite>
                                 </Li>
                             </Ul>
                             <Ul>
@@ -42,13 +44,17 @@ function About() {
                             </Ul>
                             <Ul>
                                 <Li><BorderWhite>
-                                    <TitleAbout>Formations</TitleAbout>
-                                    <DateAbout>2019-2018</DateAbout>
-                                    <PlaceAbout>Ecole Camondo, Paris</PlaceAbout>
-                                    <CursusAbout>Double cursus Architecte intérieur et Design</CursusAbout>
-                                    <DateAbout>2016-2019</DateAbout>
-                                    <PlaceAbout>Lycée maximilien Vox, Paris</PlaceAbout>
-                                    <CursusAbout>Baccalauréat STD2A avec mention</CursusAbout></BorderWhite>
+                                    <TitleAbout>Compétences</TitleAbout>
+                                    <DateAbout>Archibad</DateAbout>
+                                    <DateAbout>Autocad</DateAbout>
+                                    <DateAbout>Sketchup</DateAbout>
+                                    <DateAbout>Rhino 6</DateAbout>
+                                    <DateAbout>Photoshop</DateAbout>
+                                    <DateAbout>Illustrator</DateAbout>
+                                    <DateAbout>InDesign</DateAbout>
+                                    <DateAbout>Lumion</DateAbout>
+                                    <DateAbout>Cinema 4D</DateAbout>
+                                </BorderWhite>
                                 </Li>
                             </Ul>
                         </CardsContainer>

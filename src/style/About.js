@@ -23,34 +23,56 @@ width: 100%;
 export const BorderWhite = styled.div`
 font-size: 22px;
 font-weight: 500;
-line-height: 35px;
 background-color: #fff;
 opacity: 1;
 padding : 15px;
 color: #333;
+height: 690px;
 border-radius: 10px 10px 10px 10px;
 &:hover{
     opacity: 1;
 }
-@media(max-width: 1162px){
-    font-size: 17px;
+@media(max-width: 745px){
+    position: relative;
+    right: 2%;
 }
-@media(max-width: 1054px){
-    line-height: 30px;
+@media(max-width: 695px){
+    right: 3%;
 }
-@media(max-width: 995px){
-    line-height: 25px;
+@media(max-width: 611px){
+    right: 4%;
 }
-@media(max-width: 375px){
-    font-size: 15px;
- }
+@media(max-width: 485px){
+    right: 5.5%;
+}
+@media(max-width:427px){
+    right: 7%;
+}
+@media(max-width:427px){
+    right: 7%;
+}
+@media(max-width:363px){
+   height: 750px;
+}
+@media(max-width:287px){
+   height: 800px;
+   width: 85%;
+}
+@media(max-width:255px){
+    font-size: 18px;
+    height: 650px;
+}
 `
-
+export const DivFormation = styled.div`
+display: flex;
+flex-direction: column;
+`
 export const CursusAbout = styled.p`
 text-align: center;
 `
 export const TitleAbout = styled.h1`
  text-align: center;
+ padding-bottom: 20px;
 `
 export const PlaceAbout = styled.p`
 text-align: center;
@@ -58,22 +80,24 @@ text-align: center;
 export const DateAbout = styled.p`
 opacity: 0.7;
 text-align: center;
+padding-bottom: 5px;
+padding-top: 5px;
 `
 export const CardsContainer = styled.div`
 @media(max-width: 1785px){ 
-margin-top: 1000px;
+margin-top: 1600px;
 }
 `
 export const Ul = styled.ul`
 display: inline-block;
+width: 30%;
 @media(max-width: 1785px){ 
     display: inherit;
-    
+    width: 100%;
 }
 `
 export const Li = styled.li`
 display: grid;
-
 @media(max-width: 731px){ 
     width :100%;
 }

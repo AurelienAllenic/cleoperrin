@@ -102,16 +102,17 @@
         width: auto;
     }
 }
+@media screen and (max-width: 1392px){
+    .carousel{
+        left: 0%;
+    }
+}
 @media screen and (max-width: 1088px){
     .carousel{
         height: 300px;
     }
 }
-@media screen and (max-width: 974px){
-    .carousel{
-        height: 200px;
-    }
-}
+
 @media screen and (max-width: 524px){
     .card_title{
         font-size: 20px;
