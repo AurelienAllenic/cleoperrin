@@ -27,9 +27,6 @@ function Caroussel({ images }) {
                     return (
                         <div key={index} className={index == current ? "carousel_card carousel_card-active" : "carousel_card"}>
                             <img className='card_image' src={image.image} alt="" />
-                            <div className='card-overlay'>
-                                <h2 className='card_title'>{image.title}</h2>
-                            </div>
                         </div>
                     )
                 })}

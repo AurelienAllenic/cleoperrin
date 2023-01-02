@@ -4,10 +4,8 @@ export const Div = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-position: relative;
-width: 80%;
-top: 320px;
-left: 220px;
+height: 100vh;
+width: 100%;
 @media(max-width: 1375px){
     left: 0px;
     width: 100%;
@@ -16,13 +14,12 @@ left: 220px;
     top: 30px;
 }
 `
-export const P = styled.p`
+export const BorderWhite = styled.div`
 font-size: 22px;
-width: 100%;
 font-weight: 500;
 line-height: 35px;
 background-color: #fff;
-opacity: 0.7;
+opacity: 1;
 padding : 15px;
 color: #333;
 border-radius: 10px 10px 10px 10px;
@@ -42,36 +39,35 @@ border-radius: 10px 10px 10px 10px;
     font-size: 15px;
  }
 `
-export const Img = styled.img`
-    min-height: 500px;
-    max-width: 100%;
-    padding-right: 200px;
-    border-radius: 10px 10px 10px 10px;
-    @media(max-width: 1492px){
-        min-height: 300px;
-        padding-top: 150px;
-        min-width: 300px;
-        max-width: 100%;
-    }
-    @media(max-width: 963px){
-        padding-right: 100px;
-    }
-    @media(max-width: 838px){
-        padding-right: 50px;
-    }
-    @media(max-width: 653px){
-        padding-top: 0px;
-        padding-right: 0px;
-        width: 100%;
-        padding-left: 3%;
-    }
-    @media(max-width: 497px){
-        min-height: 300px;
-    }
-    @media(max-width: 414px){
-        min-height: 200px;
-    }
-    @media(max-width: 375px){
-        height: 50px;
-    }
+
+export const CursusAbout = styled.p`
+text-align: center;
+`
+export const TitleAbout = styled.h1`
+ text-align: center;
+`
+export const PlaceAbout = styled.p`
+text-align: center;
+`
+export const DateAbout = styled.p`
+opacity: 0.7;
+text-align: center;
+`
+export const Ul = styled.ul`
+display: grid;
+grid-template-columns: repeat(1, 3fr);
+`
+export const Li = styled.li``
+export const DateAndIndication = styled.div`
+display: flex;
+padding: 15px;
+`
+export const Date = styled.p`
+margin-right: 10px;
+font-style: italic;
+opacity: 0.6;
+`
+export const Indication = styled.p`
+margin-left: 5px;
+margin-right: 10px;
 `

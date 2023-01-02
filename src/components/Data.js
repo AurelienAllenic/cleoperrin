@@ -53,24 +53,6 @@ export const prisma = [
         title: "TRAVAILLER",
     },
 ]
-export const general = [
-    {
-        image: "/images/general1.jpg",
-        title: "general",
-    },
-    {
-        image: "/images/general2.jpg",
-        title: "general",
-    },
-    {
-        image: "/images/general3.jpg",
-        title: "general",
-    },
-    {
-        image: "/images/general4.jpg",
-        title: "general",
-    },
-]
 export const suresnes = [
     {
         image: "/images/general1.jpg",
@@ -88,18 +70,46 @@ export const home = [
     },
     {
         image: "/images/home2.jpg",
-        title: "Architecte émérite",
+        title: "",
     },
     {
         image: "/images/home3.jpg",
-        title: "Design...",
+        title: "",
     },
     {
         image: "/images/home4.jpg",
-        title: "Architecture...",
+        title: "",
     },
     {
         image: "/images/home5.jpg",
-        title: "Conceeeeeptttt...",
+        title: "",
+    },
+]
+export const residential = [
+    {
+        image: "/images/residential1.jpg",
+        title: "Cléo Perrin",
+    },
+    {
+        image: "/images/residential2.jpg",
+        title: "Architecture...",
+    },
+    {
+        image: "/images/residential3.jpg",
+        title: "Design...",
+    },
+]
+export const artificial = [
+    {
+        image: "/images/residential1.jpg",
+        title: "Cléo Perrin",
+    },
+    {
+        image: "/images/residential2.jpg",
+        title: "Architecture...",
+    },
+    {
+        image: "/images/residential3.jpg",
+        title: "Design...",
     },
 ]

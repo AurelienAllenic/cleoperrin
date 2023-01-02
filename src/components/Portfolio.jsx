@@ -3,14 +3,15 @@ import { Parallax } from 'react-parallax';
 import PortfolioIMG from "../assets/test.jpg"
 import { Div, H1, P, DivBlock } from "../style/Portfolio"
 import Caroussel from './Caroussel';
-import { scalables, venti, prisma, suresnes, general } from './Data';
+import { scalables, venti, prisma, suresnes, residential, artificial } from './Data';
 import { SpanLocation } from "../style/General"
+import "../index.css"
 
 function Design() {
     return (
         <>
             <SpanLocation id='design'></SpanLocation>
-            <Parallax className='img-portfolio' bgImage={PortfolioIMG} strength={2500}>
+            <Parallax className='img-portfolio' bgImage={PortfolioIMG} strength={3500}>
                 <Div>
                     <DivBlock>
                         <H1>VENTI - MOBILIER ROTOMOULABLE</H1>
@@ -24,7 +25,7 @@ function Design() {
                         <Caroussel images={venti} />
                     </DivBlock>
                     <DivBlock>
-                        <H1>Scalable nature</H1>
+                        <H1>SCALABLE NATURE</H1>
                         <P>modules en tôle perforée
                             Inspiré par l’univers de la faune et de la flore,
                             Scalable Nature est un kit de
@@ -41,9 +42,17 @@ function Design() {
                             Le projet se base sur la technique du DIY (Do It Yourself) et à donc été pensé pour que l’utilisateur
                             assemble les différents composants de Prisma, avec des matériaux abordables et à bas coûts.</P>
                         <Caroussel images={prisma} />
-                        <SpanLocation id='space'></SpanLocation>
                     </DivBlock>
-
+                    <DivBlock>
+                        <H1>DESIGN ET INTELLIGENCE ARTIFICIELLE</H1>
+                        <P>Projet exposé lors de la foire d’art contemporain de Strasbourg ST’ART 2022
+                            Ce projet explore la relation entre création et intelligence artificielle.
+                            Conçu par plusieurs IA,
+                            Les visuels générés à la manière de différents designers  représentent une série de 42 objets novateurs. Le jeu de société se joue à la manière d’un jeu de 7 familles, accessible à tous permettant de se familiariser et d’appréhender les identités distinctes des 7
+                            créateurs les plus influents.</P>
+                        <Caroussel images={artificial} />
+                    </DivBlock>
+                    <SpanLocation id='space'></SpanLocation>
                     <DivBlock>
                         <H1>La Mairie de Suresnes - guichet unique et
                             espace d’accueil</H1>
@@ -55,9 +64,10 @@ function Design() {
                         <SpanLocation id='residential'></SpanLocation>
                     </DivBlock>
                     <DivBlock>
-                        <H1>PROJET 1</H1>
-                        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam expedita earum, corporis autem tempore consequatur, omnis distinctio ex vero, nobis error! Similique iste beatae quis rem mollitia quas id sed!</P>
-                        <Caroussel images={general} />
+                        <H1>Résidentiel</H1>
+                        <P>Par la superposition de matériaux,
+                            couleurs et principes constructifs habituellement utilisés en façade, les nouveaux espaces créés s’intégreront à l'identité de l’existant tout en créant un contraste entre structure apparente et dissimulée. Le projet Recouvrement est une rupture entre identité industrielle et contemporaine.Le restaurant est pensé de sorte à offrir une nouvelle observation des événements desChaudronneries de Montreuil, par des dispositif translucides, tel que le textile ou la tôle perforée. </P>
+                        <Caroussel images={residential} />
                     </DivBlock>
 
                 </Div>
