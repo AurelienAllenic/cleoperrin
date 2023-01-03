@@ -4,7 +4,7 @@ import PortfolioIMG from "../assets/test.jpg"
 import { Div, H1, P, DivBlock, ContainerProjects } from "../style/Portfolio"
 import Caroussel from './Caroussel';
 import { scalables, venti, prisma, suresnes, residential, artificial } from './Data';
-import { MainTitleSection, SpanLocation } from "../style/General"
+import { MainTitleSection, SpanLocation, SpanLocation2 } from "../style/General"
 import "../index.css"
 
 function Design() {
@@ -54,7 +54,7 @@ function Design() {
                                 créateurs les plus influents.</P>
                             <Caroussel images={artificial} />
                         </DivBlock>
-                        <SpanLocation id='space'></SpanLocation>
+                        <SpanLocation2 id='space'></SpanLocation2>
                         <DivBlock>
                             <MainTitleSection>Espaces Publics</MainTitleSection>
                             <H1>La Mairie de Suresnes - guichet unique et

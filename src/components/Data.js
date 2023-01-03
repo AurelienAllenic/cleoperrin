@@ -55,25 +55,25 @@ export const prisma = [
 ]
 export const suresnes = [
     {
-        image: "/images/general1.jpg",
+        image: "/images/general1.webp",
         title: "",
     },
     {
-        image: "/images/general2.jpg",
+        image: "/images/general2.webp",
         title: "",
     },
 ]
 export const home = [
     {
-        image: "/images/home1.jpg",
+        image: "/images/home1.webp",
         title: "Cléo Perrin",
     },
     {
-        image: "/images/home2.jpg",
+        image: "/images/home2.webp",
         title: "",
     },
     {
-        image: "/images/home3.jpg",
+        image: "/images/home3.webp",
         title: "",
     },
     {

@@ -8,6 +8,7 @@ justify-content: center;
 align-items: center;
 font-weight: 300;
 text-decoration: underline 1px;
+margin-top: 100px;
 `
 
 export const MainTitleSection = styled.h2`
@@ -22,5 +23,9 @@ text-decoration: underline 1px;
 `
 export const SpanLocation = styled.span`
 height: 20vh;
-margin-top: -200px;
+margin-top: 200px;
+`
+export const SpanLocation2 = styled.span`
+height: 10vh;
+margin-top: 0px;
 `
