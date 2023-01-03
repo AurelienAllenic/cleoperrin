@@ -7,6 +7,7 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 height: 70vh;
+padding-bottom: 30px;
 `
 export const InputDiv = styled.div`
 `
