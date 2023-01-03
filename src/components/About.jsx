@@ -9,7 +9,7 @@ function About() {
         <>
             <section id="about">
 
-                <Parallax className='img-about' bgImage={AboutIMG} strength={2500}>
+                <Parallax className='img-about' bgImage={AboutIMG} strength={500}>
                     <Div>
                         <CardsContainer>
                             <Ul>

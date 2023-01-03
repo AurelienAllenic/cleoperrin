@@ -4,15 +4,16 @@ export const Div = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-height: 100vh;
 width: 100%;
-margin-bottom: 50px;
+height: auto;
+margin-top: 100px;
+margin-bottom: 100px;
 @media(max-width: 1375px){
     left: 0px;
     width: 100%;
 }
 @media(max-width: 859px){
-    width: 94%;
+    width: 91%;
 }
 @media(max-width: 414px){
     top: 30px;
@@ -34,6 +35,7 @@ border-radius: 10px 10px 10px 10px;
     opacity: 1;
 }
 @media(max-width: 745px){
+    height: auto;
     position: relative;
     right: 2%;
 }
@@ -52,16 +54,12 @@ border-radius: 10px 10px 10px 10px;
 @media(max-width:427px){
     right: 7%;
 }
-@media(max-width:363px){
-   height: 750px;
-}
 @media(max-width:287px){
-   height: 800px;
    width: 85%;
 }
 @media(max-width:255px){
     font-size: 18px;
-    height: 650px;
+    
 }
 `
 export const DivFormation = styled.div`
@@ -85,9 +83,7 @@ padding-bottom: 5px;
 padding-top: 5px;
 `
 export const CardsContainer = styled.div`
-@media(max-width: 1785px){ 
-margin-top: 1600px;
-}
+
 `
 export const Ul = styled.ul`
 display: inline-block;

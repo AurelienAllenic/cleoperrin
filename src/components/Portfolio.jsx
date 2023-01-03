@@ -4,7 +4,7 @@ import PortfolioIMG from "../assets/test.jpg"
 import { Div, H1, P, DivBlock, ContainerProjects } from "../style/Portfolio"
 import Caroussel from './Caroussel';
 import { scalables, venti, prisma, suresnes, residential, artificial } from './Data';
-import { SpanLocation } from "../style/General"
+import { MainTitlePortfolio, SpanLocation } from "../style/General"
 import "../index.css"
 
 function Design() {
@@ -15,6 +15,7 @@ function Design() {
                 <ContainerProjects>
                     <Div>
                         <DivBlock>
+                            <MainTitlePortfolio>Design</MainTitlePortfolio>
                             <H1>VENTI - MOBILIER ROTOMOULABLE</H1>
                             <P>Venti réinterprète l’ADN formel de
                                 mobiliers de design connus de tous.<br />
@@ -37,37 +38,39 @@ function Design() {
                         </DivBlock>
                         <DivBlock>
                             <H1>PRISMA - la lampe 3 en 1</H1>
-                            <P>Prisma est une lampe modulable, et 3 en 1 pensée pour s’adapter à différents contextes.
-                                Combiner la lampe de travail, la lampe de chevet et la lampe décorative en une.
-                                La lampe s’adapte à trois situations principales, se reposer, habiller / embellir l’espace mais aussi travailler.
+                            <P>Prisma est une lampe modulable, et 3 en 1 pensée pour s’adapter à différents contextes.<br />
+                                Combiner la lampe de travail, la lampe de chevet et la lampe décorative en une.<br />
+                                La lampe s’adapte à trois situations principales, se reposer, habiller / embellir l’espace mais aussi travailler.<br />
                                 Le projet se base sur la technique du DIY (Do It Yourself) et à donc été pensé pour que l’utilisateur
                                 assemble les différents composants de Prisma, avec des matériaux abordables et à bas coûts.</P>
                             <Caroussel images={prisma} />
                         </DivBlock>
                         <DivBlock>
                             <H1>DESIGN ET INTELLIGENCE ARTIFICIELLE</H1>
-                            <P>Projet exposé lors de la foire d’art contemporain de Strasbourg ST’ART 2022
+                            <P>Projet exposé lors de la foire d’art contemporain de Strasbourg ST’ART 2022.<br />
                                 Ce projet explore la relation entre création et intelligence artificielle.
-                                Conçu par plusieurs IA,
+                                Conçu par plusieurs IA.<br />
                                 Les visuels générés à la manière de différents designers  représentent une série de 42 objets novateurs. Le jeu de société se joue à la manière d’un jeu de 7 familles, accessible à tous permettant de se familiariser et d’appréhender les identités distinctes des 7
                                 créateurs les plus influents.</P>
                             <Caroussel images={artificial} />
                         </DivBlock>
                         <SpanLocation id='space'></SpanLocation>
                         <DivBlock>
+                            <MainTitlePortfolio>Espaces Publics</MainTitlePortfolio>
                             <H1>La Mairie de Suresnes - guichet unique et
                                 espace d’accueil</H1>
-                            <P>Situé à quelques minutes de la Mairie de Suresnes, le bâtiment administratif  3 rue du Mont Valérien accueille chaque jour citoyens et agents de la mairie. Le projet repose sur trois grands axes : la monumentalité, la mise en valeur de l’identité du bâtiment, et une circulation induite par la structure existante.
+                            <P>Situé à quelques minutes de la Mairie de Suresnes, le bâtiment administratif  3 rue du Mont Valérien accueille chaque jour citoyens et agents de la mairie.<br /> Le projet repose sur trois grands axes : la monumentalité, la mise en valeur de l’identité du bâtiment, et une circulation induite par la structure existante.<br />
                                 L’enjeu d’un espace d’accueil dédié à l’administration en France est de représenter les valeurs patriotiques françaises en constituant un projet
-                                monumental, grandiose, qui appelle le public vers l’intérieur du bâtiment. Un nouvel escalier a donc été dessiné, afin de proposer un flux principal dans la verticalité du bâtiment allant du rez -de -jardin au premier étage. Le projet met également en valeur un savoir-faire unique : le décor peint, moins coûteux et plus écologique que l’usage du vrai marbre.
+                                monumental, grandiose, qui appelle le public vers l’intérieur du bâtiment.<br /> Un nouvel escalier a donc été dessiné, afin de proposer un flux principal dans la verticalité du bâtiment allant du rez -de -jardin au premier étage. <br />Le projet met également en valeur un savoir-faire unique : le décor peint, moins coûteux et plus écologique que l’usage du vrai marbre.
                             </P>
                             <Caroussel images={suresnes} />
                             <SpanLocation id='residential'></SpanLocation>
                         </DivBlock>
                         <DivBlock>
-                            <H1>Résidentiel</H1>
+                            <MainTitlePortfolio>Résidentiel</MainTitlePortfolio>
+                            <H1>Recouvrement</H1>
                             <P>Par la superposition de matériaux,
-                                couleurs et principes constructifs habituellement utilisés en façade, les nouveaux espaces créés s’intégreront à l'identité de l’existant tout en créant un contraste entre structure apparente et dissimulée. Le projet Recouvrement est une rupture entre identité industrielle et contemporaine.Le restaurant est pensé de sorte à offrir une nouvelle observation des événements desChaudronneries de Montreuil, par des dispositif translucides, tel que le textile ou la tôle perforée. </P>
+                                couleurs et principes constructifs habituellement utilisés en façade, les nouveaux espaces créés s’intégreront à l'identité de l’existant tout en créant un contraste entre structure apparente et dissimulée. <br />Le projet Recouvrement est une rupture entre identité industrielle et contemporaine.<br />Le restaurant est pensé de sorte à offrir une nouvelle observation des événements desChaudronneries de Montreuil, par des dispositif translucides, tel que le textile ou la tôle perforée. </P>
                             <Caroussel images={residential} />
                         </DivBlock>
                     </Div>

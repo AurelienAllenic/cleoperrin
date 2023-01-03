@@ -87,7 +87,6 @@ border: 2px solid black;
 }
 `
 export const Button = styled.button`
-width: 10%;
 height: 50px;
 border-radius: 10px 10px 10px 10px;
 border-top: none;

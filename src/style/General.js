@@ -15,14 +15,13 @@ color: black;
 
 export const MainTitlePortfolio = styled.h2`
 font-size: 45px;
-display: flex;
-padding-left: 450px;
-padding-top: 50px;
-font-weight: 400;
 color: black;
-@media (max-width: 1492px){
-    display: none;
-}
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 100px;
+font-weight: 300;
+text-decoration: underline 1px;
 `
 export const SpanLocation = styled.span`
 height: 20vh;
