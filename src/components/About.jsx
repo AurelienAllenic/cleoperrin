@@ -9,7 +9,7 @@ function About() {
         <>
             <section id="about">
 
-                <Parallax className='img-about' bgImage={AboutIMG} strength={500}>
+                <Parallax className='img-about' bgImage={AboutIMG} strength={2500}>
                     <Div>
                         <CardsContainer>
                             <Ul>
@@ -28,16 +28,16 @@ function About() {
                                 <Li><BorderWhite>
                                     <TitleAbout>Expériences</TitleAbout>
                                     <DateAndIndication>
-                                        <Date>2019 - </Date><Indication>LIAGRES : stage d'observation</Indication>
+                                        <Date>2019 </Date><Indication>LIAGRE : stage d'observation</Indication>
                                     </DateAndIndication>
                                     <DateAndIndication>
-                                        <Date>2021 - </Date><Indication>Rudy Ricciotti : stage suivi de chantier</Indication>
+                                        <Date>2021</Date><Indication>Rudy Ricciotti : stage suivi de chantier</Indication>
                                     </DateAndIndication>
                                     <DateAndIndication>
-                                        <Date>2022 - </Date><Indication>Inidia Mahdavi : stage de deux mois en agence</Indication>
+                                        <Date>2022</Date><Indication>India Mahdavi : stage de deux mois en agence</Indication>
                                     </DateAndIndication>
                                     <DateAndIndication>
-                                        <Date>2021-2023 - </Date><Indication>Angélique Omoré : assistance architecte d'intérieur</Indication>
+                                        <Date>2021-2023</Date><Indication>Angélique Omoré : assistance architecte d'intérieur</Indication>
                                     </DateAndIndication>
                                 </BorderWhite>
                                 </Li>
@@ -45,7 +45,7 @@ function About() {
                             <Ul>
                                 <Li><BorderWhite>
                                     <TitleAbout>Compétences</TitleAbout>
-                                    <DateAbout>Archibad</DateAbout>
+                                    <DateAbout>Archicad</DateAbout>
                                     <DateAbout>Autocad</DateAbout>
                                     <DateAbout>Sketchup</DateAbout>
                                     <DateAbout>Rhino 6</DateAbout>

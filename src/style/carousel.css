@@ -1,13 +1,13 @@
 .carousel{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
     position: relative;
-    left: 7%;
     padding-top: 15px;
     padding-bottom: 15px;
     height: 400px;
     width: 100%;
+    left: 7%;
     max-width: 1000px;
 }
 
@@ -95,7 +95,12 @@
 .pagination_dot-active{
     background-color: black;
 }
-
+@media screen and (max-width: 1782px){
+    .carousel{
+        left: 0%;
+        width: auto;
+    }
+}
 @media screen and (max-width: 1382px){
     .carousel{
         left: 0%;

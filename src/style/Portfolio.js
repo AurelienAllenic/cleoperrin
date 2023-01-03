@@ -1,20 +1,22 @@
 import styled from "styled-components";
 
+export const ContainerProjects = styled.div`
+margin-top: 100px;
+margin-bottom: 100px;
+
+`
 export const Div = styled.div`
 position: relative;
-height: 60vh;
 width: 100%;
-top: 25%;
-left: 20%;
-@media(max-width: 1492px){
-    height: 100vh;
-}
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
 `
 export const DivBlock = styled.div`
 padding: 15px;
 border-radius: 10px 10px 10px 10px;
 width: 60%;
-margin-top: 50px;
 margin-bottom: 35px;
 &:hover{
     opacity: 1;

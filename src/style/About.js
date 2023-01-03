@@ -6,6 +6,7 @@ align-items: center;
 justify-content: center;
 height: 100vh;
 width: 100%;
+margin-bottom: 50px;
 @media(max-width: 1375px){
     left: 0px;
     width: 100%;
