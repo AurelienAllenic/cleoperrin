@@ -2,7 +2,7 @@ import React from 'react'
 import { Parallax } from 'react-parallax';
 import AboutIMG from "../assets/about.jpg"
 import { CardsContainer, BorderWhite, Div, Ul, Li, TitleAbout, DateAbout, PlaceAbout, CursusAbout, DateAndIndication, Date, Indication, DivFormation } from "../style/About"
-
+import { MainTitle } from "../style/General"
 function About() {
 
     return (
@@ -10,6 +10,7 @@ function About() {
             <section id="about">
 
                 <Parallax className='img-about' bgImage={AboutIMG} strength={500}>
+                    <MainTitle>A Propos</MainTitle>
                     <Div>
                         <CardsContainer>
                             <Ul>

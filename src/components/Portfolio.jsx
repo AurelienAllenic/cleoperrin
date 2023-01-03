@@ -4,7 +4,7 @@ import PortfolioIMG from "../assets/test.jpg"
 import { Div, H1, P, DivBlock, ContainerProjects } from "../style/Portfolio"
 import Caroussel from './Caroussel';
 import { scalables, venti, prisma, suresnes, residential, artificial } from './Data';
-import { MainTitlePortfolio, SpanLocation } from "../style/General"
+import { MainTitleSection, SpanLocation } from "../style/General"
 import "../index.css"
 
 function Design() {
@@ -15,7 +15,7 @@ function Design() {
                 <ContainerProjects>
                     <Div>
                         <DivBlock>
-                            <MainTitlePortfolio>Design</MainTitlePortfolio>
+                            <MainTitleSection>Design</MainTitleSection>
                             <H1>VENTI - MOBILIER ROTOMOULABLE</H1>
                             <P>Venti réinterprète l’ADN formel de
                                 mobiliers de design connus de tous.<br />
@@ -56,7 +56,7 @@ function Design() {
                         </DivBlock>
                         <SpanLocation id='space'></SpanLocation>
                         <DivBlock>
-                            <MainTitlePortfolio>Espaces Publics</MainTitlePortfolio>
+                            <MainTitleSection>Espaces Publics</MainTitleSection>
                             <H1>La Mairie de Suresnes - guichet unique et
                                 espace d’accueil</H1>
                             <P>Situé à quelques minutes de la Mairie de Suresnes, le bâtiment administratif  3 rue du Mont Valérien accueille chaque jour citoyens et agents de la mairie.<br /> Le projet repose sur trois grands axes : la monumentalité, la mise en valeur de l’identité du bâtiment, et une circulation induite par la structure existante.<br />
@@ -67,7 +67,7 @@ function Design() {
                             <SpanLocation id='residential'></SpanLocation>
                         </DivBlock>
                         <DivBlock>
-                            <MainTitlePortfolio>Résidentiel</MainTitlePortfolio>
+                            <MainTitleSection>Résidentiel</MainTitleSection>
                             <H1>Recouvrement</H1>
                             <P>Par la superposition de matériaux,
                                 couleurs et principes constructifs habituellement utilisés en façade, les nouveaux espaces créés s’intégreront à l'identité de l’existant tout en créant un contraste entre structure apparente et dissimulée. <br />Le projet Recouvrement est une rupture entre identité industrielle et contemporaine.<br />Le restaurant est pensé de sorte à offrir une nouvelle observation des événements desChaudronneries de Montreuil, par des dispositif translucides, tel que le textile ou la tôle perforée. </P>

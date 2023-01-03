@@ -16,7 +16,7 @@ code {
 .img{
   background: no-repeat center/cover;
   position: relative;
-  height: 100vh;
+  height: auto;
 }
 .img-about{
   background: no-repeat center/cover;

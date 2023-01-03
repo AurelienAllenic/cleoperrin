@@ -2,18 +2,15 @@ import styled from "styled-components";
 
 export const MainTitle = styled.h1`
 font-size: 45px;
+color: black;
 display: flex;
 justify-content: center;
 align-items: center;
-padding-top: 50px;
-font-weight: 400;
-color: black;
-@media (max-width: 1492px){
-    display: none;
-}
+font-weight: 300;
+text-decoration: underline 1px;
 `
 
-export const MainTitlePortfolio = styled.h2`
+export const MainTitleSection = styled.h2`
 font-size: 45px;
 color: black;
 display: flex;

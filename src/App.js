@@ -4,6 +4,7 @@ import Design from "./components/Portfolio";
 import Contact from "./components/Contact";
 import { home } from "./components/Data";
 import Home from "./components/Home";
+import FooterContact from './components/FooterContact';
 import ProgressBar from "./components/ProgressBar";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <About/>
       <Design/>
       <Contact/>
+      <FooterContact/>
     </div>
   );
 }

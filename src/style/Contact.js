@@ -4,15 +4,9 @@ export const Form = styled.form`
 display: flex;
 justify-content: center;
 align-items: center;
-position: relative;
-bottom: 0px;
 flex-direction: column;
 width: 100%;
-height: 100vh;
-@media (max-width: 1492px){
-    height: 100vh;
-    bottom: 0px;
-}
+height: 70vh;
 `
 export const InputDiv = styled.div`
 `
@@ -107,9 +101,7 @@ font-size: 20px;
 export const Footer = styled.footer`
 background-color: white;
 width: 100%;
-height: 50px;
-position: absolute;
-bottom: 0%;
+height: auto;
 `
 export const Icons = styled.div`
 width: 100%;
