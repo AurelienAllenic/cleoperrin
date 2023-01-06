@@ -43,9 +43,6 @@
     cursor: pointer;
 }
 @media screen and (max-width: 1365px){
-    .triangledown{
-        display: none;
-    }
     .navbar_links{
         flex-direction: column;
         justify-content: center;

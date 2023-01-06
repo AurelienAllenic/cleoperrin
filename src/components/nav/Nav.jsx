@@ -58,8 +58,8 @@ function Navbar() {
                         <Link to='about' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>A Propos</Link>
                     </li>
                     <li className='navbar_link' onMouseEnter={onMouseEnter}
-                        onMouseLeave={onMouseLeave}>
-                        <Link to='design' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks} >Portfolio<RxTriangleDown className="triangledown" /></Link>
+                        onMouseLeave={onMouseLeave} onClick={setDropdown}>
+                        Portfolio<RxTriangleDown className="triangledown" />
                         {dropdown && <Dropdown />}
                     </li>
                     <li className='navbar_link'>
