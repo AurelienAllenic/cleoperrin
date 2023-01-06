@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Form, InputDiv, Input, Textarea, Button } from "../style/Contact"
-import { MainTitle } from "../style/General"
+import { MainTitleSection } from "../style/General"
 
 function Contact() {
     const form = useRef();
@@ -27,7 +27,7 @@ function Contact() {
             <section id="contact">
                 <Parallax className='img' bgImage={ContactIMG} strength={800}>
                     <ToastContainer />
-                    <MainTitle>Contact</MainTitle>
+                    <MainTitleSection>Contact</MainTitleSection>
                     <Form ref={form} onSubmit={sendEmail}>
                         <InputDiv>
                             <Input id='name' type="text" name='name' placeholder='Nom / Prénom' required />

@@ -8,12 +8,9 @@ z-index: 2000;
 export const BarContainer = styled.div`
 background-color: white;
 position: sticky;
-top: 8%;
+top: 0%;
 z-index: 2000;
 height: 5px;
-@media(max-width: 1375px){
-    top: 0%;
-}
 `
 export const Bar = styled.div`
 height: 5px;

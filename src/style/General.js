@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
-export const MainTitle = styled.h1`
+
+export const MainTitleSection = styled.p`
 font-size: 45px;
 color: black;
 display: flex;
 justify-content: center;
 align-items: center;
-font-weight: 300;
-text-decoration: underline 1px;
-margin-top: 100px;
+padding-top: 100px;
+padding-bottom: 0px;
+font-weight: 500;
 `
-
-export const MainTitleSection = styled.h2`
+export const MainTitleSectionPortfolio = styled.p`
 font-size: 45px;
 color: black;
 display: flex;

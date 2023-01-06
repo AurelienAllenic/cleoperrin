@@ -12,13 +12,14 @@
     z-index: 1000;
     top: 0; 
 }
+
 .navbar_links{
     display: flex;
     font-size: 25px;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 .navbar_link{
-    padding: 0 1rem;
+    padding: 1rem 1rem 1rem;
     color: inherit;
 }
 .navbar_link:hover{
@@ -42,6 +43,9 @@
     cursor: pointer;
 }
 @media screen and (max-width: 1365px){
+    .triangledown{
+        display: none;
+    }
     .navbar_links{
         flex-direction: column;
         justify-content: center;

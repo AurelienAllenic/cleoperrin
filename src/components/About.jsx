@@ -2,14 +2,14 @@ import React from 'react'
 import { Parallax } from 'react-parallax';
 import AboutIMG from "../assets/about.jpg"
 import { CardsContainer, BorderWhite, Div, Ul, Li, TitleAbout, DateAbout, PlaceAbout, CursusAbout, DateAndIndication, Date, Indication, DivFormation } from "../style/About"
-import { MainTitle, SpanLocation } from "../style/General"
+import { MainTitleSection, SpanLocation } from "../style/General"
 function About() {
 
     return (
         <>
             <SpanLocation id='about'></SpanLocation>
             <Parallax className='img-about' bgImage={AboutIMG} strength={500}>
-                <MainTitle>A Propos</MainTitle>
+                <MainTitleSection>A Propos</MainTitleSection>
                 <Div>
                     <CardsContainer>
                         <Ul>
