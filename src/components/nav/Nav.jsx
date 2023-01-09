@@ -1,13 +1,17 @@
 import "./nav.css"
+import './Dropdown.css';
 import React, { useState, useEffect } from 'react'
 import { Link } from "react-scroll"
-import Dropdown from './Dropdown';
 import { RxTriangleDown } from "react-icons/rx"
+import { MenuItems } from './MenuItems';
+
 
 function Navbar() {
     const [scrollTop, setScrollTop] = useState(0);
-    const [click, setClick] = useState(false);
     const [dropdown, setDropdown] = useState(false);
+    const [click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click);
 
     const onScroll = () => {
         const winScroll = document.documentElement.scrollTop;
@@ -17,6 +21,21 @@ function Navbar() {
 
         setScrollTop(scrolled)
 
+    }
+
+    const trying = () => {
+        if (click === false) {
+            setDropdown(true);
+            setShowlinks(true);
+            setClick(false);
+            console.log(click)
+        }
+        else {
+            setDropdown(false);
+            setShowlinks(false);
+            setClick(true);
+            console.log(click)
+        }
     }
     const onMouseEnter = () => {
         if (window.innerWidth < 960) {
@@ -33,7 +52,6 @@ function Navbar() {
             setDropdown(false);
         }
     };
-
 
     useEffect(() => {
         window.addEventListener("scroll", onScroll)
@@ -58,9 +76,27 @@ function Navbar() {
                         <Link to='about' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>A Propos</Link>
                     </li>
                     <li className='navbar_link' onMouseEnter={onMouseEnter}
-                        onMouseLeave={onMouseLeave} onClick={setDropdown}>
+                        onMouseLeave={onMouseLeave} onClick={trying} >
                         Portfolio<RxTriangleDown className="triangledown" />
-                        {dropdown && <Dropdown />}
+                        {dropdown &&
+                            <ul
+                                onClick={handleClick}
+                                className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+                            >
+                                {MenuItems.map((item, index) => {
+                                    return (
+                                        <li key={index}>
+                                            <Link
+                                                className={item.cName}
+                                                to={item.path}
+                                                spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}
+                                            >
+                                                <span onClick={trying}>{item.title}</span>
+                                            </Link>
+                                        </li>
+                                    );
+                                })}
+                            </ul>}
                     </li>
                     <li className='navbar_link'>
                         <Link to='contact' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Contact</Link>
