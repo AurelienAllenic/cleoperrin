@@ -68,13 +68,13 @@ function Navbar() {
         <>
             <div className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
                 <div className="grid-test">
-                    <Link className='navbar_logo' to='home' spy={true} smooth={true} offset={0} duration={500}>Cléo Perrin</Link>
+                    <Link className='navbar_logo' to='home' spy={true} smooth={true} offset={0} duration={1500}>Cléo Perrin</Link>
                     <ul className='navbar_links'>
                         <li className='navbar_link'>
-                            <Link to='home' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Accueil</Link>
+                            <Link to='home' spy={true} smooth={true} offset={0} duration={1500} onClick={handleShowLinks}>Accueil</Link>
                         </li>
                         <li className='navbar_link'>
-                            <Link to='about' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>A Propos</Link>
+                            <Link to='about' spy={true} smooth={true} offset={0} duration={1500} onClick={handleShowLinks}>A Propos</Link>
                         </li>
                         <li className='navbar_link' onMouseEnter={onMouseEnter}
                             onMouseLeave={onMouseLeave} onClick={trying} >
@@ -90,7 +90,7 @@ function Navbar() {
                                                 <Link
                                                     className={item.cName}
                                                     to={item.path}
-                                                    spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}
+                                                    spy={true} smooth={true} offset={0} duration={1500} onClick={handleShowLinks}
                                                 >
                                                     <span onClick={trying}>{item.title}</span>
                                                 </Link>
@@ -100,7 +100,7 @@ function Navbar() {
                                 </ul>}
                         </li>
                         <li className='navbar_link'>
-                            <Link to='contact' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Contact</Link>
+                            <Link to='contact' spy={true} smooth={true} offset={0} duration={1500} onClick={handleShowLinks}>Contact</Link>
                         </li>
                     </ul>
                     <button className='navbar_burger' onClick={handleShowLinks}>
