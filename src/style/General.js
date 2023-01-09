@@ -19,7 +19,6 @@ justify-content: center;
 align-items: center;
 padding-bottom: 100px;
 font-weight: 300;
-text-decoration: underline 1px;
 `
 export const SpanLocation = styled.span`
 height: 20vh;

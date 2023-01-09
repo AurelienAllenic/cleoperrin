@@ -53,12 +53,16 @@ export const prisma = [
 export const suresnes = [
     {
         image: "/images/general1.webp",
-        title: "",
+        content: "Le projet repose sur trois grands axes : la monumentalité, la mise en valeur de l’identité du bâtiment, et une circulation induite par la structure existante.",
     },
     {
         image: "/images/general2.webp",
-        title: "",
+        content: "L’enjeu d’un espace d’accueil dédié à l’administration en France est de représenter les valeurs patriotiques françaises en constituant un projet monumental, grandiose, qui appelle le public vers l’intérieur du bâtiment.",
     },
+    {
+        image: "",
+        content: "Un nouvel escalier a donc été dessiné, afin de proposer un flux principal dans la verticalité du bâtiment allant du rez -de -jardin au premier étage. Le projet met également en valeur un savoir-faire unique : le décor peint, moins coûteux et plus écologique que l’usage du vrai marbre."
+    }
 ]
 export const home = [
     {
@@ -85,15 +89,15 @@ export const home = [
 export const residential = [
     {
         image: "/images/residential1.jpg",
-        title: "Cléo Perrin",
+        content: " Par la superposition de matériaux, couleurs et principes constructifs habituellement utilisés en façade, les nouveaux espaces créés s’intégreront à l'identité de l’existant tout en créant un contraste entre structure apparente et dissimulée. ",
     },
     {
         image: "/images/residential2.jpg",
-        title: "Architecture...",
+        content: "Le projet Recouvrement est une rupture entre identité industrielle et contemporaine.",
     },
     {
         image: "/images/residential3.jpg",
-        title: "Design...",
+        content: "Le restaurant est pensé de sorte à offrir une nouvelle observation des événements des Chaudronneries de Montreuil, par des dispositif translucides, tel que le textile ou la tôle perforée.",
     },
 ]
 export const artificial = [

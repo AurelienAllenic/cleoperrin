@@ -37,18 +37,12 @@ function Design() {
                             <MainTitleSectionPortfolio>Espaces Publics</MainTitleSectionPortfolio>
                             <H1>La Mairie de Suresnes - guichet unique et
                                 espace d’accueil</H1>
-                            <P>Situé à quelques minutes de la Mairie de Suresnes, le bâtiment administratif  3 rue du Mont Valérien accueille chaque jour citoyens et agents de la mairie.<br /> Le projet repose sur trois grands axes : la monumentalité, la mise en valeur de l’identité du bâtiment, et une circulation induite par la structure existante.<br />
-                                L’enjeu d’un espace d’accueil dédié à l’administration en France est de représenter les valeurs patriotiques françaises en constituant un projet
-                                monumental, grandiose, qui appelle le public vers l’intérieur du bâtiment.<br /> Un nouvel escalier a donc été dessiné, afin de proposer un flux principal dans la verticalité du bâtiment allant du rez -de -jardin au premier étage. <br />Le projet met également en valeur un savoir-faire unique : le décor peint, moins coûteux et plus écologique que l’usage du vrai marbre.
-                            </P>
                             <Caroussel images={suresnes} />
                             <SpanLocation id='residential'></SpanLocation>
                         </DivBlock>
                         <DivBlock>
                             <MainTitleSectionPortfolio>Résidentiel</MainTitleSectionPortfolio>
                             <H1>Recouvrement</H1>
-                            <P>Par la superposition de matériaux,
-                                couleurs et principes constructifs habituellement utilisés en façade, les nouveaux espaces créés s’intégreront à l'identité de l’existant tout en créant un contraste entre structure apparente et dissimulée. <br />Le projet Recouvrement est une rupture entre identité industrielle et contemporaine.<br />Le restaurant est pensé de sorte à offrir une nouvelle observation des événements desChaudronneries de Montreuil, par des dispositif translucides, tel que le textile ou la tôle perforée. </P>
                             <Caroussel images={residential} />
                         </DivBlock>
                     </Div>

@@ -23,7 +23,7 @@ function Navbar() {
 
     }
 
-    const trying = () => {
+    const closeBoth = () => {
         if (click === false) {
             setDropdown(true);
             setShowlinks(true);
@@ -77,7 +77,7 @@ function Navbar() {
                             <Link to='about' spy={true} smooth={true} offset={0} duration={1500} onClick={handleShowLinks}>A Propos</Link>
                         </li>
                         <li className='navbar_link' onMouseEnter={onMouseEnter}
-                            onMouseLeave={onMouseLeave} onClick={trying} >
+                            onMouseLeave={onMouseLeave} onClick={closeBoth} >
                             Portfolio<RxTriangleDown className="triangledown" />
                             {dropdown &&
                                 <ul
@@ -92,7 +92,7 @@ function Navbar() {
                                                     to={item.path}
                                                     spy={true} smooth={true} offset={0} duration={1500} onClick={handleShowLinks}
                                                 >
-                                                    <span onClick={trying}>{item.title}</span>
+                                                    <span onClick={closeBoth}>{item.title}</span>
                                                 </Link>
                                             </li>
                                         );
