@@ -2,7 +2,6 @@
     display: flex;
     flex: wrap;
     align-items: center;
-    padding: 0.1rem;
     position: fixed;
     width: 100%;
     min-height: 75px;
@@ -12,14 +11,21 @@
     z-index: 1000;
     top: 0; 
 }
-
+.grid-test{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.2fr 0.6fr 0.2fr;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
 .navbar_links{
     display: flex;
+    justify-content: center;
     font-size: 25px;
-    margin-left: 25%;
+    width: 100%;
 }
 .navbar_link{
-    padding: 1rem 1rem 1rem;
+    padding: 1rem 1rem 1em;
     color: inherit;
 }
 .navbar_link:hover{
@@ -36,7 +42,9 @@
 }
 .navbar_logo{
     font-size: 25px;
-    padding-left: 1%;
+    padding-left: 4%;
+    padding-top: 45px;
+    margin-bottom: 40px;
 }
 .navbar_logo:hover{
     font-weight: 500;
@@ -62,7 +70,12 @@
         width: 100vw;
         visibility: visible;
     }
-
+    .navbar_logo{
+        font-size: 25px;
+        padding-left: 4%;
+        padding-top: 0px;
+        margin-bottom: 5px;
+    }
     /* bonus */
     .navbar_item::after{
         content: "";

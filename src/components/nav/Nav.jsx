@@ -67,44 +67,46 @@ function Navbar() {
     return (
         <>
             <div className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-                <Link className='navbar_logo' to='home' spy={true} smooth={true} offset={0} duration={500}>Cléo Perrin</Link>
-                <ul className='navbar_links'>
-                    <li className='navbar_link'>
-                        <Link to='home' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Accueil</Link>
-                    </li>
-                    <li className='navbar_link'>
-                        <Link to='about' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>A Propos</Link>
-                    </li>
-                    <li className='navbar_link' onMouseEnter={onMouseEnter}
-                        onMouseLeave={onMouseLeave} onClick={trying} >
-                        Portfolio<RxTriangleDown className="triangledown" />
-                        {dropdown &&
-                            <ul
-                                onClick={handleClick}
-                                className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
-                            >
-                                {MenuItems.map((item, index) => {
-                                    return (
-                                        <li key={index}>
-                                            <Link
-                                                className={item.cName}
-                                                to={item.path}
-                                                spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}
-                                            >
-                                                <span onClick={trying}>{item.title}</span>
-                                            </Link>
-                                        </li>
-                                    );
-                                })}
-                            </ul>}
-                    </li>
-                    <li className='navbar_link'>
-                        <Link to='contact' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Contact</Link>
-                    </li>
-                </ul>
-                <button className='navbar_burger' onClick={handleShowLinks}>
-                    <span className='burger-bar'></span>
-                </button>
+                <div className="grid-test">
+                    <Link className='navbar_logo' to='home' spy={true} smooth={true} offset={0} duration={500}>Cléo Perrin</Link>
+                    <ul className='navbar_links'>
+                        <li className='navbar_link'>
+                            <Link to='home' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Accueil</Link>
+                        </li>
+                        <li className='navbar_link'>
+                            <Link to='about' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>A Propos</Link>
+                        </li>
+                        <li className='navbar_link' onMouseEnter={onMouseEnter}
+                            onMouseLeave={onMouseLeave} onClick={trying} >
+                            Portfolio<RxTriangleDown className="triangledown" />
+                            {dropdown &&
+                                <ul
+                                    onClick={handleClick}
+                                    className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+                                >
+                                    {MenuItems.map((item, index) => {
+                                        return (
+                                            <li key={index}>
+                                                <Link
+                                                    className={item.cName}
+                                                    to={item.path}
+                                                    spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}
+                                                >
+                                                    <span onClick={trying}>{item.title}</span>
+                                                </Link>
+                                            </li>
+                                        );
+                                    })}
+                                </ul>}
+                        </li>
+                        <li className='navbar_link'>
+                            <Link to='contact' spy={true} smooth={true} offset={0} duration={500} onClick={handleShowLinks}>Contact</Link>
+                        </li>
+                    </ul>
+                    <button className='navbar_burger' onClick={handleShowLinks}>
+                        <span className='burger-bar'></span>
+                    </button>
+                </div>
             </div>
         </>
     )
