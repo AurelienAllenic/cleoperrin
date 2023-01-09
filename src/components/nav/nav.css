@@ -65,6 +65,9 @@
         background-color: #fff;
         transition: all .8s ease-out;
     }
+    .grid-test{
+        grid-template-columns: 0.5fr 0.5fr;
+    }
     .show-nav .navbar_links{
         right: -0vw;
         width: 100vw;
