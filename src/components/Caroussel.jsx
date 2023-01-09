@@ -1,6 +1,8 @@
 import React from 'react'
 import "../style/carousel.css"
 import { useState, useEffect } from "react"
+import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md"
+import { SpanIconLeft, SpanIconRight } from '../style/General'
 
 function Caroussel({ images }) {
     const [current, setCurrent] = useState(0)
@@ -20,6 +22,14 @@ function Caroussel({ images }) {
                         return (
                             <div key={index} className={index == current ? "carousel_card carousel_card-active" : "carousel_card"}>
                                 <img className='card_image' onClick={slideRight} src={image.image} alt="" />
+                                <div className='card-overlay'>
+                                    <div>
+                                        <p className='card_content'>{image.content}</p>
+                                    </div>
+                                    <MdArrowBackIos className='carousel_arrow_left' onClick={slideLeft} />
+                                    <span className='carousel_arrow_right' onClick={slideRight}><MdArrowForwardIos /></span>
+
+                                </div>
                             </div>
                         )
                     })}
