@@ -17,32 +17,25 @@ function Design() {
                     <Div>
                         <DivBlock>
                             <MainTitleSectionPortfolio>Design</MainTitleSectionPortfolio>
-                            <H1>VENTI - MOBILIER ROTOMOULABLE</H1>
                             <Caroussel images={venti} />
                         </DivBlock>
                         <DivBlock>
-                            <H1>SCALABLE NATURE</H1>
                             <Caroussel images={scalables} />
                         </DivBlock>
                         <DivBlock>
-                            <H1>PRISMA - la lampe 3 en 1</H1>
                             <Caroussel images={prisma} />
                         </DivBlock>
                         <DivBlock>
-                            <H1>DESIGN ET INTELLIGENCE ARTIFICIELLE</H1>
                             <Caroussel images={artificial} />
                         </DivBlock>
                         <SpanLocation2 id='space'></SpanLocation2>
                         <DivBlock>
                             <MainTitleSectionPortfolio>Espaces Publics</MainTitleSectionPortfolio>
-                            <H1>La Mairie de Suresnes - guichet unique et
-                                espace d’accueil</H1>
                             <Caroussel images={suresnes} />
                             <SpanLocation id='residential'></SpanLocation>
                         </DivBlock>
                         <DivBlock>
                             <MainTitleSectionPortfolio>Résidentiel</MainTitleSectionPortfolio>
-                            <H1>Recouvrement</H1>
                             <Caroussel images={residential} />
                         </DivBlock>
                     </Div>

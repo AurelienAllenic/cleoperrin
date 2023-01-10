@@ -78,7 +78,7 @@ function Navbar() {
                         </li>
                         <li className='navbar_link' onMouseEnter={onMouseEnter}
                             onMouseLeave={onMouseLeave} onClick={closeBoth} >
-                            Portfolio<RxTriangleDown className="triangledown" />
+                            Portfolio
                             {dropdown &&
                                 <ul
                                     onClick={handleClick}

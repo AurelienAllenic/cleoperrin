@@ -20,11 +20,12 @@ function Caroussel({ images }) {
                 <div className='carousel_wrapper'>
                     {images.map((image, index) => {
                         return (
-                            <div key={index} onClick={slideRight} className={index == current ? "carousel_card carousel_card-active" : "carousel_card"}>
+                            <div key={index} className={index == current ? "carousel_card carousel_card-active" : "carousel_card"}>
                                 <img className='card_image' src={image.image} alt="" />
                                 <div className='card-overlay'>
                                     <div className='containerContent'>
-                                        <p className='card_content' onClick={slideRight}>{image.content}</p>
+                                        <p className={image.classTitle}>{image.title}</p>
+                                        <p className={image.classContent}>{image.content}</p>
                                     </div>
                                     <MdArrowBackIos className='carousel_arrow_left' onClick={slideLeft} />
                                     <span className='carousel_arrow_right' onClick={slideRight}><MdArrowForwardIos /></span>
